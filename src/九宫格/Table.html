@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.box {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.box-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
+  border-spacing: 0.57em;
+  font-size: 20px;
+  empty-cells: hide;
+  table-layout: fixed;
+}
+.box-inner > tbody > tr > td {
+  text-align: center;
+  background-color: burlywood;
+  overflow: hidden;
+}
+
+    </style>
+</head>
+<body>
+    <div class="box">
+  <table class="box-inner">
+    <tbody>
+      <tr>
+        <td>九宫格1</td>
+        <td>九宫格2</td>
+        <td>九宫格3</td>
+      </tr>
+      <tr>
+        <td>九宫格4</td>
+        <td>九宫格5</td>
+        <td>九宫格6</td>
+      </tr>
+      <tr>
+        <td>九宫格7</td>
+        <td>九宫格8</td>
+        <td>九宫格9</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+</body>
+</html>
