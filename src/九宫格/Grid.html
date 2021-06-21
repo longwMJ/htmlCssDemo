@@ -3,39 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="referrer" content="no-referrer">  -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
         .box {
   display: grid;
-  height: 600px;
+  /* height: 600px; */
   width: 100%;
   grid-template-columns: repeat(3, 1fr);
  grid-template-rows: repeat(3, 1fr);
 }
 .box > div {
-  width: 98%;
-  margin: 1%;
-  background-color: deeppink;
+  /* width: 98%;
+  margin: 1%; */
+  margin: 2%;
+  /* background-color: deeppink; */
+
   text-align: center;
   line-height: 200px;
   cursor: pointer;
+
+  /* background: url('https://image.baidu.com/search/detail?ct=503316480&z=undefined&tn=baiduimagedetail&ipn=d&word=div%20%E5%9B%BE%E7%89%87%E8%83%8C%E6%99%AF&step_word=&ie=utf-8&in=&cl=2&lm=-1&st=undefined&hd=undefined&latest=undefined&copyright=undefined&cs=1609168994,2059317205&os=2437375492,648269413&simid=3317370164,322198270&pn=14&rn=1&di=92510&ln=1103&fr=&fmq=1624265982564_R&fm=&ic=undefined&s=undefined&se=&sme=&tab=0&width=undefined&height=undefined&face=undefined&is=0,0&istype=0&ist=&jit=&bdtype=0&spn=0&pi=0&gsm=0&objurl=https%3A%2F%2Fgimg2.baidu.com%2Fimage_search%2Fsrc%3Dhttp%253A%252F%252Fyqfile.alicdn.com%252Fimg_a83b7219a518d986a3bc9866e734b039.png%26refer%3Dhttp%253A%252F%252Fyqfile.alicdn.com%26app%3D2002%26size%3Df9999%2C10000%26q%3Da80%26n%3D0%26g%3D0n%26fmt%3Djpeg%3Fsec%3D1626857981%26t%3D5eb1842875e5d3842a9fc4715d89f565&rpstart=0&rpnum=0&adpicid=0&nojc=undefined'); */
+  background: url('https://bkimg.cdn.bcebos.com/pic/63d0f703918fa0ec08faacc53fde4eee3d6d54fb6deb?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg');
+  background-size:100% 100%;
+
+
   -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
-.box > div:nth-child(even) {
+/* .box > div:nth-child(even) {
   background-color: black;
   color: #fff;
-}
+} */
 
     </style>
 </head>
 <body>
     <div class="box">
-        <div>九宫格1</div>
+      <!-- <a href=""></a> -->
+        <!-- <div style="background-image:url(https://bkimg.cdn.bcebos.com/pic/63d0f703918fa0ec08faacc53fde4eee3d6d54fb6deb?x-bce-process=image/resize,m_lfit,w_268,limit_1/format,f_jpg)">  -->
+        <div> 
+          <!-- <a href="http://www.htmer.com" target="_blank"></a>九宫格1 -->
+          九宫格1
+        </div>
         <div>九宫格2</div>
         <div>九宫格3</div>
         <div>九宫格4</div>
